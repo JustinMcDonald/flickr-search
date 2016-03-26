@@ -1,0 +1,64 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.header {
+	min-height: 400px;
+    background-image: url(/img/bg2_b.png);
+    background-size: cover;
+}
+
+.header > h1 {
+	text-align: center;
+    padding-top: 180px;
+    padding-bottom:20px;
+}
+
+.image-wrapper {
+	margin-bottom:15px;
+}
+
+.image{
+    position:relative;
+    overflow:hidden;
+    padding-bottom:100%;
+    background-position: center;
+    background-size: cover;
+	cursor:pointer;
+}
+
+.image img {
+    position:absolute;
+}
+
+.filter-wrapper {
+	margin-bottom:20px;
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+.dropdown {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.results-description {
+	padding-top:5px;
+	text-align: right;
+}
+
+#loading {
+	display:none;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-32px;
+}
